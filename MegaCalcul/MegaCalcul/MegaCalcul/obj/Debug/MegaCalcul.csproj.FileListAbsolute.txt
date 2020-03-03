@@ -1,0 +1,12 @@
+C:\Users\User\source\repos\MegaCalcul\MegaCalcul\bin\Debug\MegaCalcul.exe.config
+C:\Users\User\source\repos\MegaCalcul\MegaCalcul\bin\Debug\MegaCalcul.exe
+C:\Users\User\source\repos\MegaCalcul\MegaCalcul\bin\Debug\MegaCalcul.pdb
+C:\Users\User\source\repos\MegaCalcul\MegaCalcul\bin\Debug\Ninject.dll
+C:\Users\User\source\repos\MegaCalcul\MegaCalcul\bin\Debug\Ninject.xml
+C:\Users\User\source\repos\MegaCalcul\MegaCalcul\obj\Debug\MegaCalcul.csprojAssemblyReference.cache
+C:\Users\User\source\repos\MegaCalcul\MegaCalcul\obj\Debug\MegaCalcul.Properties.Resources.resources
+C:\Users\User\source\repos\MegaCalcul\MegaCalcul\obj\Debug\View.Form1.resources
+C:\Users\User\source\repos\MegaCalcul\MegaCalcul\obj\Debug\MegaCalcul.csproj.GenerateResource.cache
+C:\Users\User\source\repos\MegaCalcul\MegaCalcul\obj\Debug\MegaCalcul.csproj.CopyComplete
+C:\Users\User\source\repos\MegaCalcul\MegaCalcul\obj\Debug\MegaCalcul.exe
+C:\Users\User\source\repos\MegaCalcul\MegaCalcul\obj\Debug\MegaCalcul.pdb
