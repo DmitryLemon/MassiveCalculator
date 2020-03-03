@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Presenter.Operators
 {
-    class Power : IOperator
+    class Power //: IOperator
     {
-        public void perform(double input)
+        public void perform(double input, int Hpointer)
         {
 
         }

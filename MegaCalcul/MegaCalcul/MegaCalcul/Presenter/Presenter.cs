@@ -16,6 +16,13 @@ namespace Presenter
         public Presenter(IKernel kernel)
         {
             this.kernel = kernel;
+
+        }
+
+        public void bind()
+        {
+            this.model = kernel.Get<Model.IModel>();
+            this.view = kernel.Get<View.IView>();
         }
 
         public void doAction(int index, string arg)
@@ -33,7 +40,15 @@ namespace Presenter
 
         public void doCounting(int index, double input)
         {
-
+            switch(index)
+            {
+                case 1:
+                    new Operators.Add().perform(input, model.getHpointer());
+                    break;
+                default:
+                    view.statusShow(0, "Unknown operation");
+                    break;
+            }
         }
     }
 }

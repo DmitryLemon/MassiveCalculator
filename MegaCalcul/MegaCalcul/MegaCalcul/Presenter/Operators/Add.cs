@@ -8,7 +8,7 @@ namespace Presenter.Operators
 {
     class Add : IOperator
     {
-        public void perform(double input)
+        public void perform(double input, int Hpointer)
         {
             
         }

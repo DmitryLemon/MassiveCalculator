@@ -49,6 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\HistoryManager.cs" />
     <Compile Include="Model\Model.cs" />
     <Compile Include="Model\IModel.cs" />
     <Compile Include="Model\IPresenter.cs" />

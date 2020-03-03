@@ -10,3 +10,15 @@ C:\Users\User\source\repos\MegaCalcul\MegaCalcul\obj\Debug\MegaCalcul.csproj.Gen
 C:\Users\User\source\repos\MegaCalcul\MegaCalcul\obj\Debug\MegaCalcul.csproj.CopyComplete
 C:\Users\User\source\repos\MegaCalcul\MegaCalcul\obj\Debug\MegaCalcul.exe
 C:\Users\User\source\repos\MegaCalcul\MegaCalcul\obj\Debug\MegaCalcul.pdb
+F:\GitKrakenProj\MassiveCalculator\MegaCalcul\MegaCalcul\MegaCalcul\obj\Debug\MegaCalcul.csprojAssemblyReference.cache
+F:\GitKrakenProj\MassiveCalculator\MegaCalcul\MegaCalcul\MegaCalcul\obj\Debug\MegaCalcul.Properties.Resources.resources
+F:\GitKrakenProj\MassiveCalculator\MegaCalcul\MegaCalcul\MegaCalcul\obj\Debug\View.Form1.resources
+F:\GitKrakenProj\MassiveCalculator\MegaCalcul\MegaCalcul\MegaCalcul\obj\Debug\MegaCalcul.csproj.GenerateResource.cache
+F:\GitKrakenProj\MassiveCalculator\MegaCalcul\MegaCalcul\MegaCalcul\obj\Debug\MegaCalcul.exe
+F:\GitKrakenProj\MassiveCalculator\MegaCalcul\MegaCalcul\MegaCalcul\obj\Debug\MegaCalcul.pdb
+F:\GitKrakenProj\MassiveCalculator\MegaCalcul\MegaCalcul\MegaCalcul\bin\Debug\MegaCalcul.exe.config
+F:\GitKrakenProj\MassiveCalculator\MegaCalcul\MegaCalcul\MegaCalcul\bin\Debug\MegaCalcul.exe
+F:\GitKrakenProj\MassiveCalculator\MegaCalcul\MegaCalcul\MegaCalcul\bin\Debug\MegaCalcul.pdb
+F:\GitKrakenProj\MassiveCalculator\MegaCalcul\MegaCalcul\MegaCalcul\bin\Debug\Ninject.dll
+F:\GitKrakenProj\MassiveCalculator\MegaCalcul\MegaCalcul\MegaCalcul\bin\Debug\Ninject.xml
+F:\GitKrakenProj\MassiveCalculator\MegaCalcul\MegaCalcul\MegaCalcul\obj\Debug\MegaCalcul.csproj.CopyComplete

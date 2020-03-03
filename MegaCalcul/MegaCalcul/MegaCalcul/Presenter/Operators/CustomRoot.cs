@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Presenter.Operators
 {
-    class CustomRoot : IOperator
+    class CustomRoot //: IOperator
     {
-        public void perform(double input)
+        public void perform(double input, int Hpointer)
         {
 
         }

@@ -29,6 +29,8 @@ namespace Presenter
             kernel.Bind<View.IView>().ToConstant(newForm);
             kernel.Bind<Model.IModel>().ToConstant(new Model.Model(kernel));
 
+            presenter.bind();
+
             Application.Run(newForm);
         }
     }
