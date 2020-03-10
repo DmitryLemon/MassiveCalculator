@@ -10,5 +10,6 @@ namespace Model
     {
         uint getHpointer();
         string[] getHistory();
+        void addHistory(string newstep);
     }
 }

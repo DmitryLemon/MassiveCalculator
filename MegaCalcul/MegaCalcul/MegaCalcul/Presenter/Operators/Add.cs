@@ -8,7 +8,7 @@ namespace Presenter.Operators
 {
     class Add : IOperator
     {
-        public void perform(double input, uint Hpointer, Presenter presenter)
+        public void perform(double input, Presenter presenter)
         {
 
             presenter.showStatus(12,44,2,"addition");

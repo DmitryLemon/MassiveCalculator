@@ -8,6 +8,6 @@ namespace Presenter
 {
     interface IOperator
     {
-        void perform(double input, uint Hpointer, Presenter presenter);
+        void perform(double input, Presenter presenter);
     }
 }
