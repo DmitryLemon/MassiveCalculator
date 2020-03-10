@@ -9,5 +9,6 @@ namespace View
     public interface IView
     {
         void statusShow(double percentage, string status);
+        void showHistory(string[] history, uint pointer);
     }
 }

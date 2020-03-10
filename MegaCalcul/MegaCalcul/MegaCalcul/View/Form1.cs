@@ -23,9 +23,12 @@ namespace View
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
 
+        public void showHistory(string[] history, uint pointer)
+        {
+            textBox3.Text = "";
+            for(int i = 0; i < pointer; i++)
+                textBox3.Text += history[i] + Environment.NewLine;
         }
 
         public void statusShow(double percentage, string status)
@@ -35,11 +38,16 @@ namespace View
         }
 
 
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             presenter.doAction(1, textBox1.Text);
         }
-
 
         private void button2_Click(object sender, EventArgs e)
         {

@@ -43,12 +43,57 @@ namespace Presenter
             switch(index)
             {
                 case 1:
-                    new Operators.Add().perform(input, model.getHpointer());
+                    new Operators.Add().perform(input, this);
+                    break;
+                case 2:
+                    new Operators.Substract().perform(input, this);
+                    break;
+                case 3:
+                    break;
+                case 4:
+                    break;
+                case 5:
+                    break;
+                case 6:
+                    break;
+                case 7:
+                    break;
+                case 8:
+                    break;
+                case 9:
+                    break;
+                case 10:
+                    break;
+                case 11:
+                    break;
+                case 12:
                     break;
                 default:
                     view.statusShow(0, "Unknown operation");
                     break;
             }
+        }
+
+        public void showStatus(int currentop, int localop, int globalop, string opname)
+        {
+            double percentage = (currentop / localop) * 100;
+            view.statusShow(percentage, "Performing " + opname);
+        }
+
+        public void showHistory()
+        {
+            view.showHistory(model.getHistory(), model.getHpointer());
+        }
+
+        public void addHistory(double[] step, uint stepcnt)
+        {
+            string newstep = "";
+            for(int i = 0; i < stepcnt; i++)
+            {
+                newstep += step[i].ToString() + " ";
+            }
+            model.addHistory(newstep);
+
         }
     }
 }

@@ -4,10 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Presenter
+namespace Model.FileManager
 {
-    interface IOperator
+    class Loader : IFileManager
     {
-        void perform(double input, uint Hpointer, Presenter presenter);
+        public int perform()
+        {
+            return 1;
+        }
+
     }
 }

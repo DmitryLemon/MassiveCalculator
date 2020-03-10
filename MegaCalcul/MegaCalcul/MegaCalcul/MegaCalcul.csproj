@@ -49,7 +49,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\FileManager\Saver.cs" />
+    <Compile Include="Model\FileManager\Loader.cs" />
     <Compile Include="Model\HistoryManager.cs" />
+    <Compile Include="Model\IFileManager.cs" />
     <Compile Include="Model\Model.cs" />
     <Compile Include="Model\IModel.cs" />
     <Compile Include="Model\IPresenter.cs" />

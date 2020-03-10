@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace Presenter.Operators
 {
-    class Substract //: IOperator
+    class Substract : IOperator
     {
-        public void perform(double input, int Hpointer)
+        public void perform(double input, uint Hpointer, Presenter presenter)
         {
 
+            presenter.showStatus(12, 22, 2, "substraction");
         }
     }
 }

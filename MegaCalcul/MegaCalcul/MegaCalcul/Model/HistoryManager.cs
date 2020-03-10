@@ -9,34 +9,26 @@ namespace Model
 {
     class HistoryManager
     {
+        public string[] list;
+        public uint pointer;
 
-        public async Task ReadFromFile()
+        public HistoryManager()
         {
-
+            list = new string[0];
+            pointer = 0;
+        }
+        
+        public void add(string newstep)
+        {
+            list = new string[pointer];
+            pointer++;
+            list[pointer-1] = newstep;
         }
 
-        public async Task WriteToTemp()
+        public void Reset()
         {
-            string writePath = "HistoryFile/hf.txt";
-            string text = "Привет мир!\nПока мир...";
-            try
-            {
-                using (StreamWriter sw = new StreamWriter(writePath, false, System.Text.Encoding.Default))
-                {
-                    await sw.WriteAsync(text);
-                }
-
-                using (StreamWriter sw = new StreamWriter(writePath, true, System.Text.Encoding.Default))
-                {
-                    await sw.WriteLineAsync("Дозапись");
-                    await sw.WriteAsync("4,5");
-                }
-
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e.Message);
-            }
+            list = new string[0];
+            pointer = 0;
         }
     }
 }

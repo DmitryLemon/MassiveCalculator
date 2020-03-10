@@ -11,20 +11,45 @@ namespace Model
     {
         private IKernel kernel;
         private IPresenter presenter;
-        private HistoryManager historyManager;
-        private int Hpointer;
+        private HistoryManager history = new HistoryManager();
 
         public Model(IKernel kernel)
         {
+            this.kernel = kernel;
+            this.presenter = kernel.Get<IPresenter>();
 
 
 
-            
         }
 
-        int IModel.getHpointer()
+        
+
+        public void fileManager(string action)
         {
-            return Hpointer;
+            if (action == "save")
+            {
+                new FileManager.Saver().perform();
+            }
+
+            if (action == "load")
+            {
+
+            }
+        }
+
+        public void addHistory(string newstep)
+        {
+            history.add(newstep);
+        }
+
+        public string[] getHistory()
+        {
+            return history.list;
+        }
+
+        public uint getHpointer()
+        {
+            return history.pointer;
         }
 
     }

@@ -8,6 +8,6 @@ namespace Model
 {
     interface IPresenter
     {
-
+        void showHistory();
     }
 }

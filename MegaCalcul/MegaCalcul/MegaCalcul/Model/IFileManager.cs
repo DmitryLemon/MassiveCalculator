@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Presenter
+namespace Model
 {
-    interface IOperator
+    interface IFileManager
     {
-        void perform(double input, uint Hpointer, Presenter presenter);
+        int perform();
     }
 }

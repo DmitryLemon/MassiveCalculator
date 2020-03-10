@@ -8,6 +8,7 @@ namespace Model
 {
     interface IModel
     {
-        int getHpointer();
+        uint getHpointer();
+        string[] getHistory();
     }
 }
